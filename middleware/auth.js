@@ -2,7 +2,7 @@
 // Add this middleware to all routes that need to be protected
 
 const jwt = require("jsonwebtoken");
-const config = "config";
+const config = require("config");
 
 // Whenever you have a middleware function, after you do what you want to do you need to call the "next" function, which just says move on to the next piece of middleware
 module.exports = function(req, res, next) {
