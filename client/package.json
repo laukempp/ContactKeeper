@@ -35,5 +35,9 @@
       "last 1 safari version"
     ]
   },
+<<<<<<< HEAD
   "proxy": "http://localhost:5000"
+=======
+  "proxy": "http://localhost:5001"
+>>>>>>> 60c17fb07387c0e2dd652e7aa5781d6e31819593
 }
